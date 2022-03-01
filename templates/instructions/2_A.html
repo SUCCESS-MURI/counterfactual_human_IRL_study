@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<!-- 
+  The exp.html is the main form that
+  controls the experiment.
+
+  see comments throughout for advice
+-->
+    <head>
+        <script src="/static/lib/jquery-min.js" type="text/javascript"> </script>
+        <script src="/static/lib/underscore-min.js" type="text/javascript"> </script>
+        <script src="/static/lib/backbone-min.js" type="text/javascript"> </script>
+        <script src="/static/lib/d3.v3.min.js" type="text/javascript"> </script>
+
+        <script src="/static/js/utils.js" type="text/javascript"> </script>
+
+        <script src="/static/js/jspsych/jspsych.js"></script>
+        <script src = "/static/js/jspsych/plugins/jspsych-html-button-response.js" type="text/javascript"></script>
+
+
+    </head>
+<body>
+<div id="container-instructions">
+
+	<h1>Instructions</h1>
+
+	<hr />
+
+	<div class="instructions well">
+        <h3>
+            Ranking
+        </h3>
+        <p> In this section, you will be shown two videos of potential trajectories for a Lunar Lander. </p>
+        <p> Below each video will be a button, corresponding to it, as in the image below.</p>
+        <img src="/static/img/instructions/2_A.png">
+
+
+        <p>Use the video controls to watch each trajectory. Then, select the button corresponding to which you believe is more successful (we want to land upright within the goal flags as efficiently as possible).</p>
+
+        <p>On the next page, you will have the opportunity to practice answering a ranking question.</p>
+	</div>
+
+    <hr />
+    
+    <div id = "target" class='center-content'></div>
+
+
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+<!--                 <button type="button" id="prev" value="prev" class="btn btn-primary btn-lg previous">
+                <span class="glyphicon glyphicon-arrow-left"></span> Previous
+                </button> -->
+            </div>
+            <div class="col-xs-8">
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                Next <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    
+    
+
+</div>
+<script> 
+
+    console.log("Is this working")
+
+
+    var practice_preference = {
+            type: 'html-button-response', 
+            stimulus: '<video width="300" height="300"> <source src="/static/vid/vid1.mp4" type="video/mp4" > </video> <video width="300" height="300"> <source src="/static/vid/vid2.mp4" type="video/mp4" > </video>',  
+            choices: ['Option 1', 'Option 2'],
+            //prompt: "<h3>PRACTICE</h3><p>When presented with two options, observe both and choose which appeals more to you</p>", 
+            preamble: "<h3>PRACTICE</h3><p>When presented with two options, observe both and choose which appeals more to you</p>"
+        }
+
+    timeline.push(practice_preference); 
+    jsPsych.init({
+            timeline: timeline, 
+            show_progress_bar: true, 
+            display_element: 'target', 
+            on_finish: function () {
+               
+            }
+        }); 
+    
+    
+</script> 
+
+</body>

@@ -1,0 +1,742 @@
+
+[2020-10-13 16:18:04 -0400] [8449] [CRITICAL] WORKER TIMEOUT (pid:8452)
+[2020-10-13 16:22:13 -0400] [8449] [CRITICAL] WORKER TIMEOUT (pid:8458)
+2020-10-13 16:23:10,910 already_started_exp (1008) {'hitId': ['5f85e96d1512500dd6a36d0e'], 'assignmentId': ['0imltf530eke'], 'workerId': ['5f5e94663a1921be434'], 'mode': ['live']}
+[2020-10-13 16:24:32 -0400] [8449] [CRITICAL] WORKER TIMEOUT (pid:8643)
+[2020-10-13 16:36:12 -0400] [8449] [CRITICAL] WORKER TIMEOUT (pid:8453)
+[2020-10-13 16:36:12 -0400] [8449] [CRITICAL] WORKER TIMEOUT (pid:11000)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14530)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14531)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14533)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14534)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14536)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14538)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14539)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14540)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14519)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14520)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14521)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14522)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14523)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14524)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14525)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14526)
+[2020-10-13 23:01:30 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:14527)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17666)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17667)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17668)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17669)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17670)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17671)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17673)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17674)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17676)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17677)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17679)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17680)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17683)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17684)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17686)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17690)
+[2020-10-14 09:40:04 -0400] [14515] [CRITICAL] WORKER TIMEOUT (pid:17646)
+[2020-12-09 14:40:21 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274626)
+[2020-12-09 14:40:21 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274628)
+[2020-12-09 14:40:21 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274606)
+[2020-12-09 14:40:21 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274608)
+[2020-12-09 14:40:21 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274614)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274624)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:275552)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274627)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:275553)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274605)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274607)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274609)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274610)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274611)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:275545)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274615)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274616)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274617)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274619)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:274620)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:275550)
+[2020-12-09 16:14:52 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:275551)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276960)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276961)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276962)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276964)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276966)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276970)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276972)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276974)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276976)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276977)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276978)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276979)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276980)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276958)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276959)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276985)
+[2020-12-09 18:02:51 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:276981)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282499)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282500)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282501)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282502)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282503)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282504)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282505)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282507)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282508)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282510)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282511)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282513)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282515)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282516)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282518)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282520)
+[2020-12-10 10:16:43 -0500] [274602] [CRITICAL] WORKER TIMEOUT (pid:282495)
+[2020-12-21 11:58:13 -0500] [146921] [CRITICAL] WORKER TIMEOUT (pid:146928)
+[2021-10-26 09:00:46 -0400] [7200] [CRITICAL] WORKER TIMEOUT (pid:7203)
+[2021-10-27 10:59:30 -0400] [30975] [CRITICAL] WORKER TIMEOUT (pid:30977)
+[2021-10-28 09:48:39 -0400] [30975] [CRITICAL] WORKER TIMEOUT (pid:30979)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31866)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31867)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31868)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31870)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31873)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31875)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31878)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31880)
+[2021-11-06 09:46:55 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31882)
+[2021-11-06 13:09:44 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31871)
+[2021-11-06 13:09:44 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:31876)
+[2021-11-06 13:09:44 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:19673)
+[2021-11-06 13:09:44 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:19684)
+[2021-11-06 13:09:44 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:19686)
+[2021-11-06 13:09:44 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:19707)
+[2021-11-06 18:49:03 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:19675)
+[2021-11-06 18:49:03 -0400] [31864] [CRITICAL] WORKER TIMEOUT (pid:19689)
+[2021-11-07 07:34:44 -0500] [31864] [CRITICAL] WORKER TIMEOUT (pid:31874)
+[2021-11-07 07:34:44 -0500] [31864] [CRITICAL] WORKER TIMEOUT (pid:19690)
+[2021-11-07 07:34:44 -0500] [31864] [CRITICAL] WORKER TIMEOUT (pid:23558)
+[2021-11-07 07:34:44 -0500] [31864] [CRITICAL] WORKER TIMEOUT (pid:25849)
+[2021-11-07 07:34:44 -0500] [31864] [CRITICAL] WORKER TIMEOUT (pid:25850)
+[2021-11-07 20:14:25 -0500] [31864] [CRITICAL] WORKER TIMEOUT (pid:31872)
+[2021-11-08 09:38:12 -0500] [31864] [CRITICAL] WORKER TIMEOUT (pid:29386)
+2021-11-08 11:27:49,524 Exception on /exp [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 478, in start_exp
+    db_session.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1046, in commit
+    self.transaction.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2540, in flush
+    self._flush(objects)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2682, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2642, in _flush
+    flush_context.execute()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 239, in save_obj
+    _emit_insert_statements(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO pilot (uniqueid, assignmentid, workerid, hitid, ipaddress, browser, platform, language, cond, counterbalance, codeversion, beginhit, beginexp, endhit, bonus, status, mode, datastring) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('debugyEM2D:debugTYz8p', 'debugTYz8p', 'debugyEM2D', 'debug8gLPZ', '127.0.0.1', 'chrome', 'linux', 'en-US', 5, 17, '1.0', '2021-11-08 16:27:44.515919', None, None, 0.0, 1, 'debug', None)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2021-11-08 11:27:54,547 Exception on /exp [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 478, in start_exp
+    db_session.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1046, in commit
+    self.transaction.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2540, in flush
+    self._flush(objects)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2682, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2642, in _flush
+    flush_context.execute()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 239, in save_obj
+    _emit_insert_statements(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO pilot (uniqueid, assignmentid, workerid, hitid, ipaddress, browser, platform, language, cond, counterbalance, codeversion, beginhit, beginexp, endhit, bonus, status, mode, datastring) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('debugyEM2D:debugTYz8p', 'debugTYz8p', 'debugyEM2D', 'debug8gLPZ', '127.0.0.1', 'chrome', 'linux', 'en-US', 6, 1, '1.0', '2021-11-08 16:27:49.539433', None, None, 0.0, 1, 'debug', None)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2021-11-08 11:28:11,338 Exception on /exp [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 478, in start_exp
+    db_session.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1046, in commit
+    self.transaction.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2540, in flush
+    self._flush(objects)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2682, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2642, in _flush
+    flush_context.execute()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 239, in save_obj
+    _emit_insert_statements(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO pilot (uniqueid, assignmentid, workerid, hitid, ipaddress, browser, platform, language, cond, counterbalance, codeversion, beginhit, beginexp, endhit, bonus, status, mode, datastring) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('debugyEM2D:debugTYz8p', 'debugTYz8p', 'debugyEM2D', 'debug8gLPZ', '127.0.0.1', 'chrome', 'linux', 'en-US', 2, 5, '1.0', '2021-11-08 16:28:06.330083', None, None, 0.0, 1, 'debug', None)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2021-11-08 11:28:29,575 Exception on /exp [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 478, in start_exp
+    db_session.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/scoping.py", line 163, in do
+    return getattr(self.registry(), name)(*args, **kwargs)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1046, in commit
+    self.transaction.commit()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2540, in flush
+    self._flush(objects)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2682, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2642, in _flush
+    flush_context.execute()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 239, in save_obj
+    _emit_insert_statements(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1083, in _emit_insert_statements
+    c = cached_connections[connection].execute(statement, multiparams)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO pilot (uniqueid, assignmentid, workerid, hitid, ipaddress, browser, platform, language, cond, counterbalance, codeversion, beginhit, beginexp, endhit, bonus, status, mode, datastring) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('debugitELM:debugztoJu', 'debugztoJu', 'debugitELM', 'debugh5taB', '127.0.0.1', 'chrome', 'linux', 'en-US', 7, 5, '1.0', '2021-11-08 16:28:24.566268', None, None, 0.0, 1, 'debug', None)]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2021-11-08 18:40:09,897 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: pilot
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 334, in advertisement
+    nrecords = Participant.query.\
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3803, in count
+    return self.from_self(col).scalar()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3523, in scalar
+    ret = self.one()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: pilot
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT pilot.uniqueid AS pilot_uniqueid, pilot.assignmentid AS pilot_assignmentid, pilot.workerid AS pilot_workerid, pilot.hitid AS pilot_hitid, pilot.ipaddress AS pilot_ipaddress, pilot.browser AS pilot_browser, pilot.platform AS pilot_platform, pilot.language AS pilot_language, pilot.cond AS pilot_cond, pilot.counterbalance AS pilot_counterbalance, pilot.codeversion AS pilot_codeversion, pilot.beginhit AS pilot_beginhit, pilot.beginexp AS pilot_beginexp, pilot.endhit AS pilot_endhit, pilot.bonus AS pilot_bonus, pilot.status AS pilot_status, pilot.mode AS pilot_mode, pilot.datastring AS pilot_datastring 
+FROM pilot 
+WHERE pilot.assignmentid != ? AND pilot.workerid = ?) AS anon_1]
+[parameters: ('debug7loTW', 'debugJypcX')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2021-11-08 18:40:12,074 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: pilot
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 334, in advertisement
+    nrecords = Participant.query.\
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3803, in count
+    return self.from_self(col).scalar()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3523, in scalar
+    ret = self.one()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: pilot
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT pilot.uniqueid AS pilot_uniqueid, pilot.assignmentid AS pilot_assignmentid, pilot.workerid AS pilot_workerid, pilot.hitid AS pilot_hitid, pilot.ipaddress AS pilot_ipaddress, pilot.browser AS pilot_browser, pilot.platform AS pilot_platform, pilot.language AS pilot_language, pilot.cond AS pilot_cond, pilot.counterbalance AS pilot_counterbalance, pilot.codeversion AS pilot_codeversion, pilot.beginhit AS pilot_beginhit, pilot.beginexp AS pilot_beginexp, pilot.endhit AS pilot_endhit, pilot.bonus AS pilot_bonus, pilot.status AS pilot_status, pilot.mode AS pilot_mode, pilot.datastring AS pilot_datastring 
+FROM pilot 
+WHERE pilot.assignmentid != ? AND pilot.workerid = ?) AS anon_1]
+[parameters: ('debug7loTW', 'debugJypcX')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+2021-11-08 18:40:12,814 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: pilot
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 334, in advertisement
+    nrecords = Participant.query.\
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3803, in count
+    return self.from_self(col).scalar()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3523, in scalar
+    ret = self.one()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: pilot
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT pilot.uniqueid AS pilot_uniqueid, pilot.assignmentid AS pilot_assignmentid, pilot.workerid AS pilot_workerid, pilot.hitid AS pilot_hitid, pilot.ipaddress AS pilot_ipaddress, pilot.browser AS pilot_browser, pilot.platform AS pilot_platform, pilot.language AS pilot_language, pilot.cond AS pilot_cond, pilot.counterbalance AS pilot_counterbalance, pilot.codeversion AS pilot_codeversion, pilot.beginhit AS pilot_beginhit, pilot.beginexp AS pilot_beginexp, pilot.endhit AS pilot_endhit, pilot.bonus AS pilot_bonus, pilot.status AS pilot_status, pilot.mode AS pilot_mode, pilot.datastring AS pilot_datastring 
+FROM pilot 
+WHERE pilot.assignmentid != ? AND pilot.workerid = ?) AS anon_1]
+[parameters: ('debug7loTW', 'debugJypcX')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
+[2021-11-09 18:32:17 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10375)
+[2021-11-10 10:36:32 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10389)
+[2021-11-10 14:24:23 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10378)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10374)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10376)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10377)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10380)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10381)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10384)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10385)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10387)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10388)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10390)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:5745)
+[2021-11-11 10:35:24 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:19011)
+[2021-11-12 09:18:21 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10382)
+[2021-11-12 13:34:17 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10379)
+[2021-11-12 15:55:04 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10383)
+[2021-11-12 21:24:37 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:10386)
+[2021-11-13 04:02:43 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:11568)
+[2021-11-13 19:44:31 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:24484)
+[2021-11-13 19:44:31 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:15443)
+[2021-11-13 19:44:31 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:15447)
+[2021-11-13 19:44:31 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:15475)
+[2021-11-14 16:57:32 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:16016)
+[2021-11-14 16:57:32 -0500] [10372] [CRITICAL] WORKER TIMEOUT (pid:30922)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32116)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32117)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32120)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32121)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32122)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32123)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32132)
+[2021-12-13 18:59:59 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32134)
+[2021-12-14 09:05:20 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32115)
+[2021-12-14 09:05:20 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32118)
+[2021-12-14 09:05:20 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32133)
+[2021-12-14 09:05:20 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32135)
+[2021-12-14 09:05:20 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:32136)
+[2021-12-14 09:05:20 -0500] [32113] [CRITICAL] WORKER TIMEOUT (pid:4636)
+[2021-12-20 22:29:51 -0500] [18622] [CRITICAL] WORKER TIMEOUT (pid:18624)
+[2021-12-20 22:29:51 -0500] [18622] [CRITICAL] WORKER TIMEOUT (pid:18628)
+[2021-12-20 22:29:51 -0500] [18622] [CRITICAL] WORKER TIMEOUT (pid:18630)
+[2021-12-20 22:29:51 -0500] [18622] [CRITICAL] WORKER TIMEOUT (pid:18638)
+[2021-12-20 22:29:51 -0500] [18622] [CRITICAL] WORKER TIMEOUT (pid:18639)
+[2021-12-21 13:41:26 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10470)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10472)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10473)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10474)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10478)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10479)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10482)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:10483)
+[2021-12-21 15:42:01 -0500] [10466] [CRITICAL] WORKER TIMEOUT (pid:13167)
+[2021-12-21 21:12:31 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23112)
+[2021-12-21 21:12:31 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23114)
+[2021-12-21 21:12:31 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23119)
+[2021-12-21 21:12:31 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23135)
+[2021-12-22 09:31:14 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23113)
+[2021-12-22 09:31:14 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23125)
+[2021-12-22 09:31:14 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23126)
+[2021-12-22 09:31:14 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:14461)
+[2021-12-22 09:31:14 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:14466)
+[2021-12-22 15:28:39 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23118)
+[2021-12-23 09:11:34 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23110)
+[2021-12-23 09:11:34 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23117)
+[2021-12-23 09:11:34 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23132)
+[2021-12-23 09:11:34 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23134)
+[2021-12-23 09:11:34 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:18591)
+[2021-12-23 13:39:28 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23111)
+[2021-12-23 22:21:26 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:23115)
+[2021-12-24 09:34:13 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:14463)
+[2021-12-24 09:34:13 -0500] [23108] [CRITICAL] WORKER TIMEOUT (pid:24108)
+[2021-12-24 20:05:09 -0500] [8854] [CRITICAL] WORKER TIMEOUT (pid:8857)
+[2021-12-24 20:05:09 -0500] [8854] [CRITICAL] WORKER TIMEOUT (pid:8859)
+[2021-12-24 20:05:09 -0500] [8854] [CRITICAL] WORKER TIMEOUT (pid:8862)
+[2021-12-24 20:05:09 -0500] [8854] [CRITICAL] WORKER TIMEOUT (pid:8867)
+2021-12-24 20:06:06,096 Exception on /ad [GET]
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: pilot
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 2447, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1952, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1821, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1950, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/flask/app.py", line 1936, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/user_utils.py", line 22, in new_func
+    resp = make_response(func(*args, **kwargs))
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/psiturk/experiment.py", line 334, in advertisement
+    nrecords = Participant.query.\
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3803, in count
+    return self.from_self(col).scalar()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3523, in scalar
+    ret = self.one()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3490, in one
+    ret = self.one_or_none()
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3459, in one_or_none
+    ret = list(self)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3535, in __iter__
+    return self._execute_and_instances(context)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/orm/query.py", line 3560, in _execute_and_instances
+    result = conn.execute(querycontext.statement, self._params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/msl/software/miniconda3/envs/psiturk31/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: pilot
+[SQL: SELECT count(*) AS count_1 
+FROM (SELECT pilot.uniqueid AS pilot_uniqueid, pilot.assignmentid AS pilot_assignmentid, pilot.workerid AS pilot_workerid, pilot.hitid AS pilot_hitid, pilot.ipaddress AS pilot_ipaddress, pilot.browser AS pilot_browser, pilot.platform AS pilot_platform, pilot.language AS pilot_language, pilot.cond AS pilot_cond, pilot.counterbalance AS pilot_counterbalance, pilot.codeversion AS pilot_codeversion, pilot.beginhit AS pilot_beginhit, pilot.beginexp AS pilot_beginexp, pilot.endhit AS pilot_endhit, pilot.bonus AS pilot_bonus, pilot.status AS pilot_status, pilot.mode AS pilot_mode, pilot.datastring AS pilot_datastring 
+FROM pilot 
+WHERE pilot.assignmentid != ? AND pilot.workerid = ?) AS anon_1]
+[parameters: ('debugsatpr', 'debugq8T3J')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)

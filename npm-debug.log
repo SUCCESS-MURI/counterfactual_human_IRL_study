@@ -1,0 +1,772 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'vega-lite' ]
+2 info using npm@3.5.2
+3 info using node@v4.2.6
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData vega-lite
+8 silly fetchNamedPackageData vega-lite
+9 silly mapToRegistry name vega-lite
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/vega-lite
+13 verbose request uri https://registry.npmjs.org/vega-lite
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 1:44:25 PM
+16 verbose request id e6ef3a0ab3588562
+17 verbose etag W/"dc8b0cc4a167a04d24a348c081261ce8"
+18 verbose lastModified Tue, 13 Oct 2020 16:23:26 GMT
+19 http request GET https://registry.npmjs.org/vega-lite
+20 http 304 https://registry.npmjs.org/vega-lite
+21 verbose headers { date: 'Thu, 22 Oct 2020 17:44:25 GMT',
+21 verbose headers   connection: 'keep-alive',
+21 verbose headers   'set-cookie': [ '__cfduid=db43c1a9055c810a0208c9dbcfcf7e0141603388665; expires=Sat, 21-Nov-20 17:44:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+21 verbose headers   'cf-ray': '5e6506b81de9ea72-IAD',
+21 verbose headers   age: '91',
+21 verbose headers   'cache-control': 'public, max-age=300',
+21 verbose headers   etag: '"dc8b0cc4a167a04d24a348c081261ce8"',
+21 verbose headers   'last-modified': 'Tue, 13 Oct 2020 16:23:26 GMT',
+21 verbose headers   vary: 'Accept-Encoding',
+21 verbose headers   'cf-cache-status': 'HIT',
+21 verbose headers   'cf-request-id': '05f30287100000ea72873f6000000001',
+21 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+21 verbose headers   server: 'cloudflare' }
+22 silly get cb [ 304,
+22 silly get   { date: 'Thu, 22 Oct 2020 17:44:25 GMT',
+22 silly get     connection: 'keep-alive',
+22 silly get     'set-cookie': [ '__cfduid=db43c1a9055c810a0208c9dbcfcf7e0141603388665; expires=Sat, 21-Nov-20 17:44:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+22 silly get     'cf-ray': '5e6506b81de9ea72-IAD',
+22 silly get     age: '91',
+22 silly get     'cache-control': 'public, max-age=300',
+22 silly get     etag: '"dc8b0cc4a167a04d24a348c081261ce8"',
+22 silly get     'last-modified': 'Tue, 13 Oct 2020 16:23:26 GMT',
+22 silly get     vary: 'Accept-Encoding',
+22 silly get     'cf-cache-status': 'HIT',
+22 silly get     'cf-request-id': '05f30287100000ea72873f6000000001',
+22 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 silly get     server: 'cloudflare' } ]
+23 verbose etag https://registry.npmjs.org/vega-lite from cache
+24 verbose get saving vega-lite to /home/msl/.npm/registry.npmjs.org/vega-lite/.cache.json
+25 silly install normalizeTree
+26 silly loadCurrentTree Finishing
+27 silly loadIdealTree Starting
+28 silly install loadIdealTree
+29 silly cloneCurrentTree Starting
+30 silly install cloneCurrentTreeToIdealTree
+31 silly cloneCurrentTree Finishing
+32 silly loadShrinkwrap Starting
+33 silly install loadShrinkwrap
+34 silly loadShrinkwrap Finishing
+35 silly loadAllDepsIntoIdealTree Starting
+36 silly install loadAllDepsIntoIdealTree
+37 silly resolveWithNewModule vega-lite@4.17.0 checking installable status
+38 silly cache add args [ 'vega-lite', null ]
+39 verbose cache add spec vega-lite
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: 'vega-lite',
+40 silly cache add   scope: null,
+40 silly cache add   name: 'vega-lite',
+40 silly cache add   rawSpec: '',
+40 silly cache add   spec: 'latest',
+40 silly cache add   type: 'tag' }
+41 silly addNamed vega-lite@latest
+42 verbose addNamed "latest" is being treated as a dist-tag for vega-lite
+43 info addNameTag [ 'vega-lite', 'latest' ]
+44 silly mapToRegistry name vega-lite
+45 silly mapToRegistry using default registry
+46 silly mapToRegistry registry https://registry.npmjs.org/
+47 silly mapToRegistry uri https://registry.npmjs.org/vega-lite
+48 verbose addNameTag registry:https://registry.npmjs.org/vega-lite not in flight; fetching
+49 verbose get https://registry.npmjs.org/vega-lite not expired, no request
+50 silly addNameTag next cb for vega-lite with tag latest
+51 silly addNamed vega-lite@4.17.0
+52 verbose addNamed "4.17.0" is a plain semver version for vega-lite
+53 silly cache afterAdd vega-lite@4.17.0
+54 verbose afterAdd /home/msl/.npm/vega-lite/4.17.0/package/package.json not in flight; writing
+55 verbose afterAdd /home/msl/.npm/vega-lite/4.17.0/package/package.json written
+56 silly fetchNamedPackageData @types/clone
+57 silly mapToRegistry name @types/clone
+58 silly mapToRegistry scope (from package name) @types
+59 verbose mapToRegistry no registry URL found in name for scope @types
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/@types%2fclone
+63 silly fetchNamedPackageData @types/fast-json-stable-stringify
+64 silly mapToRegistry name @types/fast-json-stable-stringify
+65 silly mapToRegistry scope (from package name) @types
+66 verbose mapToRegistry no registry URL found in name for scope @types
+67 silly mapToRegistry using default registry
+68 silly mapToRegistry registry https://registry.npmjs.org/
+69 silly mapToRegistry uri https://registry.npmjs.org/@types%2ffast-json-stable-stringify
+70 silly fetchNamedPackageData array-flat-polyfill
+71 silly mapToRegistry name array-flat-polyfill
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry uri https://registry.npmjs.org/array-flat-polyfill
+75 silly fetchNamedPackageData clone
+76 silly mapToRegistry name clone
+77 silly mapToRegistry using default registry
+78 silly mapToRegistry registry https://registry.npmjs.org/
+79 silly mapToRegistry uri https://registry.npmjs.org/clone
+80 silly fetchNamedPackageData fast-deep-equal
+81 silly mapToRegistry name fast-deep-equal
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry uri https://registry.npmjs.org/fast-deep-equal
+85 silly fetchNamedPackageData fast-json-stable-stringify
+86 silly mapToRegistry name fast-json-stable-stringify
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/fast-json-stable-stringify
+90 silly fetchNamedPackageData json-stringify-pretty-compact
+91 silly mapToRegistry name json-stringify-pretty-compact
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/json-stringify-pretty-compact
+95 silly fetchNamedPackageData tslib
+96 silly mapToRegistry name tslib
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/tslib
+100 silly fetchNamedPackageData vega-event-selector
+101 silly mapToRegistry name vega-event-selector
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/vega-event-selector
+105 silly fetchNamedPackageData vega-expression
+106 silly mapToRegistry name vega-expression
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/vega-expression
+110 silly fetchNamedPackageData vega-util
+111 silly mapToRegistry name vega-util
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/vega-util
+115 silly fetchNamedPackageData yargs
+116 silly mapToRegistry name yargs
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/yargs
+120 verbose request uri https://registry.npmjs.org/@types%2ffast-json-stable-stringify
+121 verbose request no auth needed
+122 info attempt registry request try #1 at 1:44:25 PM
+123 verbose etag W/"413c4558d3482b0bb23fe06675ee8e93"
+124 verbose lastModified Tue, 25 Aug 2020 22:18:14 GMT
+125 http request GET https://registry.npmjs.org/@types%2ffast-json-stable-stringify
+126 verbose request uri https://registry.npmjs.org/@types%2fclone
+127 verbose request no auth needed
+128 info attempt registry request try #1 at 1:44:25 PM
+129 verbose etag W/"4b8d43c7d2909e13f376a1afce02ea8a"
+130 verbose lastModified Tue, 25 Aug 2020 22:11:36 GMT
+131 http request GET https://registry.npmjs.org/@types%2fclone
+132 verbose request uri https://registry.npmjs.org/fast-deep-equal
+133 verbose request no auth needed
+134 info attempt registry request try #1 at 1:44:25 PM
+135 verbose etag W/"50e58e96ce1ae757a0bd8e41b58513be"
+136 verbose lastModified Mon, 08 Jun 2020 07:27:32 GMT
+137 http request GET https://registry.npmjs.org/fast-deep-equal
+138 verbose request uri https://registry.npmjs.org/json-stringify-pretty-compact
+139 verbose request no auth needed
+140 info attempt registry request try #1 at 1:44:25 PM
+141 verbose etag W/"d5dd1f39f5806c4cdadba235b702e5de"
+142 verbose lastModified Sat, 02 Feb 2019 13:16:16 GMT
+143 http request GET https://registry.npmjs.org/json-stringify-pretty-compact
+144 verbose request uri https://registry.npmjs.org/array-flat-polyfill
+145 verbose request no auth needed
+146 info attempt registry request try #1 at 1:44:25 PM
+147 verbose etag W/"ca5d71a440cf71d6d9fcd6b7150055d5"
+148 verbose lastModified Fri, 12 Apr 2019 21:27:07 GMT
+149 http request GET https://registry.npmjs.org/array-flat-polyfill
+150 verbose request uri https://registry.npmjs.org/clone
+151 verbose request no auth needed
+152 info attempt registry request try #1 at 1:44:25 PM
+153 verbose etag W/"e7f514de950dc8f5a0f30b1fd58d0420"
+154 verbose lastModified Wed, 01 Aug 2018 22:56:48 GMT
+155 http request GET https://registry.npmjs.org/clone
+156 verbose request uri https://registry.npmjs.org/tslib
+157 verbose request no auth needed
+158 info attempt registry request try #1 at 1:44:25 PM
+159 verbose etag W/"8f0a1273b0d161d5021b5a2b85d2d8be"
+160 verbose lastModified Fri, 09 Oct 2020 23:35:46 GMT
+161 http request GET https://registry.npmjs.org/tslib
+162 verbose request uri https://registry.npmjs.org/fast-json-stable-stringify
+163 verbose request no auth needed
+164 info attempt registry request try #1 at 1:44:25 PM
+165 verbose etag W/"ae0fff93e18698c6aa2dc573fe85ad0a"
+166 verbose lastModified Sat, 14 Dec 2019 16:18:01 GMT
+167 http request GET https://registry.npmjs.org/fast-json-stable-stringify
+168 verbose request uri https://registry.npmjs.org/vega-event-selector
+169 verbose request no auth needed
+170 info attempt registry request try #1 at 1:44:25 PM
+171 verbose etag W/"378c82072e8746c21dd0c099e764f676"
+172 verbose lastModified Wed, 23 Sep 2020 08:20:40 GMT
+173 http request GET https://registry.npmjs.org/vega-event-selector
+174 verbose request uri https://registry.npmjs.org/vega-expression
+175 verbose request no auth needed
+176 info attempt registry request try #1 at 1:44:25 PM
+177 verbose etag W/"c522ac11467530c27fcc50bac405df92"
+178 verbose lastModified Wed, 23 Sep 2020 08:20:44 GMT
+179 http request GET https://registry.npmjs.org/vega-expression
+180 verbose request uri https://registry.npmjs.org/vega-util
+181 verbose request no auth needed
+182 info attempt registry request try #1 at 1:44:25 PM
+183 verbose etag W/"bf0efaba947ebafc71799c4761db9a43"
+184 verbose lastModified Thu, 01 Oct 2020 10:12:46 GMT
+185 http request GET https://registry.npmjs.org/vega-util
+186 verbose request uri https://registry.npmjs.org/yargs
+187 verbose request no auth needed
+188 info attempt registry request try #1 at 1:44:25 PM
+189 verbose etag W/"a4375234a85bb970a0ab3e634123647c"
+190 verbose lastModified Fri, 16 Oct 2020 00:15:20 GMT
+191 http request GET https://registry.npmjs.org/yargs
+192 http 304 https://registry.npmjs.org/array-flat-polyfill
+193 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+193 verbose headers   connection: 'keep-alive',
+193 verbose headers   'set-cookie': [ '__cfduid=d09da0960c3b9cee51ed483e14732042d1603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+193 verbose headers   'cf-ray': '5e6506ba7ec425b0-IAD',
+193 verbose headers   age: '5209',
+193 verbose headers   'cache-control': 'public, max-age=300',
+193 verbose headers   etag: '"ca5d71a440cf71d6d9fcd6b7150055d5"',
+193 verbose headers   'last-modified': 'Fri, 12 Apr 2019 21:27:07 GMT',
+193 verbose headers   vary: 'Accept-Encoding',
+193 verbose headers   'cf-cache-status': 'HIT',
+193 verbose headers   'cf-request-id': '05f302888f000025b08b923000000001',
+193 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+193 verbose headers   server: 'cloudflare' }
+194 silly get cb [ 304,
+194 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+194 silly get     connection: 'keep-alive',
+194 silly get     'set-cookie': [ '__cfduid=d09da0960c3b9cee51ed483e14732042d1603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+194 silly get     'cf-ray': '5e6506ba7ec425b0-IAD',
+194 silly get     age: '5209',
+194 silly get     'cache-control': 'public, max-age=300',
+194 silly get     etag: '"ca5d71a440cf71d6d9fcd6b7150055d5"',
+194 silly get     'last-modified': 'Fri, 12 Apr 2019 21:27:07 GMT',
+194 silly get     vary: 'Accept-Encoding',
+194 silly get     'cf-cache-status': 'HIT',
+194 silly get     'cf-request-id': '05f302888f000025b08b923000000001',
+194 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+194 silly get     server: 'cloudflare' } ]
+195 verbose etag https://registry.npmjs.org/array-flat-polyfill from cache
+196 verbose get saving array-flat-polyfill to /home/msl/.npm/registry.npmjs.org/array-flat-polyfill/.cache.json
+197 http 304 https://registry.npmjs.org/clone
+198 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+198 verbose headers   connection: 'keep-alive',
+198 verbose headers   'set-cookie': [ '__cfduid=d4f8f1106cf232d1a9a9e62ad01fec9231603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+198 verbose headers   'cf-ray': '5e6506ba7cdd2a3f-IAD',
+198 verbose headers   age: '2912',
+198 verbose headers   'cache-control': 'public, max-age=300',
+198 verbose headers   etag: '"e7f514de950dc8f5a0f30b1fd58d0420"',
+198 verbose headers   'last-modified': 'Wed, 01 Aug 2018 22:56:48 GMT',
+198 verbose headers   vary: 'Accept-Encoding',
+198 verbose headers   'cf-cache-status': 'HIT',
+198 verbose headers   'cf-request-id': '05f302888d00002a3f9080e000000001',
+198 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+198 verbose headers   server: 'cloudflare' }
+199 silly get cb [ 304,
+199 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+199 silly get     connection: 'keep-alive',
+199 silly get     'set-cookie': [ '__cfduid=d4f8f1106cf232d1a9a9e62ad01fec9231603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+199 silly get     'cf-ray': '5e6506ba7cdd2a3f-IAD',
+199 silly get     age: '2912',
+199 silly get     'cache-control': 'public, max-age=300',
+199 silly get     etag: '"e7f514de950dc8f5a0f30b1fd58d0420"',
+199 silly get     'last-modified': 'Wed, 01 Aug 2018 22:56:48 GMT',
+199 silly get     vary: 'Accept-Encoding',
+199 silly get     'cf-cache-status': 'HIT',
+199 silly get     'cf-request-id': '05f302888d00002a3f9080e000000001',
+199 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+199 silly get     server: 'cloudflare' } ]
+200 verbose etag https://registry.npmjs.org/clone from cache
+201 verbose get saving clone to /home/msl/.npm/registry.npmjs.org/clone/.cache.json
+202 http 304 https://registry.npmjs.org/json-stringify-pretty-compact
+203 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+203 verbose headers   connection: 'keep-alive',
+203 verbose headers   'set-cookie': [ '__cfduid=d66d80a92c72e182f768b54f166c728191603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+203 verbose headers   'cf-ray': '5e6506ba7c9673d5-IAD',
+203 verbose headers   age: '6196',
+203 verbose headers   'cache-control': 'public, max-age=300',
+203 verbose headers   etag: '"d5dd1f39f5806c4cdadba235b702e5de"',
+203 verbose headers   'last-modified': 'Sat, 02 Feb 2019 13:16:16 GMT',
+203 verbose headers   vary: 'Accept-Encoding',
+203 verbose headers   'cf-cache-status': 'HIT',
+203 verbose headers   'cf-request-id': '05f3028890000073d5731e1000000001',
+203 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+203 verbose headers   server: 'cloudflare' }
+204 silly get cb [ 304,
+204 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+204 silly get     connection: 'keep-alive',
+204 silly get     'set-cookie': [ '__cfduid=d66d80a92c72e182f768b54f166c728191603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+204 silly get     'cf-ray': '5e6506ba7c9673d5-IAD',
+204 silly get     age: '6196',
+204 silly get     'cache-control': 'public, max-age=300',
+204 silly get     etag: '"d5dd1f39f5806c4cdadba235b702e5de"',
+204 silly get     'last-modified': 'Sat, 02 Feb 2019 13:16:16 GMT',
+204 silly get     vary: 'Accept-Encoding',
+204 silly get     'cf-cache-status': 'HIT',
+204 silly get     'cf-request-id': '05f3028890000073d5731e1000000001',
+204 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+204 silly get     server: 'cloudflare' } ]
+205 verbose etag https://registry.npmjs.org/json-stringify-pretty-compact from cache
+206 verbose get saving json-stringify-pretty-compact to /home/msl/.npm/registry.npmjs.org/json-stringify-pretty-compact/.cache.json
+207 http 304 https://registry.npmjs.org/fast-json-stable-stringify
+208 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+208 verbose headers   connection: 'keep-alive',
+208 verbose headers   'set-cookie': [ '__cfduid=d72ef205c3a266836eb8b433a60542f051603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+208 verbose headers   'cf-ray': '5e6506ba7da5cf1c-IAD',
+208 verbose headers   age: '2808',
+208 verbose headers   'cache-control': 'public, max-age=300',
+208 verbose headers   etag: '"ae0fff93e18698c6aa2dc573fe85ad0a"',
+208 verbose headers   'last-modified': 'Sat, 14 Dec 2019 16:18:01 GMT',
+208 verbose headers   vary: 'Accept-Encoding',
+208 verbose headers   'cf-cache-status': 'HIT',
+208 verbose headers   'cf-request-id': '05f30288900000cf1c500ab000000001',
+208 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+208 verbose headers   server: 'cloudflare' }
+209 silly get cb [ 304,
+209 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+209 silly get     connection: 'keep-alive',
+209 silly get     'set-cookie': [ '__cfduid=d72ef205c3a266836eb8b433a60542f051603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+209 silly get     'cf-ray': '5e6506ba7da5cf1c-IAD',
+209 silly get     age: '2808',
+209 silly get     'cache-control': 'public, max-age=300',
+209 silly get     etag: '"ae0fff93e18698c6aa2dc573fe85ad0a"',
+209 silly get     'last-modified': 'Sat, 14 Dec 2019 16:18:01 GMT',
+209 silly get     vary: 'Accept-Encoding',
+209 silly get     'cf-cache-status': 'HIT',
+209 silly get     'cf-request-id': '05f30288900000cf1c500ab000000001',
+209 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+209 silly get     server: 'cloudflare' } ]
+210 verbose etag https://registry.npmjs.org/fast-json-stable-stringify from cache
+211 verbose get saving fast-json-stable-stringify to /home/msl/.npm/registry.npmjs.org/fast-json-stable-stringify/.cache.json
+212 http 304 https://registry.npmjs.org/vega-event-selector
+213 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+213 verbose headers   connection: 'keep-alive',
+213 verbose headers   'set-cookie': [ '__cfduid=d3d84d4024fdb8efa47ea95d55c48280b1603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+213 verbose headers   'cf-ray': '5e6506ba79120d76-IAD',
+213 verbose headers   age: '242',
+213 verbose headers   'cache-control': 'public, max-age=300',
+213 verbose headers   etag: '"378c82072e8746c21dd0c099e764f676"',
+213 verbose headers   'last-modified': 'Wed, 23 Sep 2020 08:20:40 GMT',
+213 verbose headers   vary: 'Accept-Encoding',
+213 verbose headers   'cf-cache-status': 'HIT',
+213 verbose headers   'cf-request-id': '05f302888f00000d76e2807000000001',
+213 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+213 verbose headers   server: 'cloudflare' }
+214 silly get cb [ 304,
+214 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+214 silly get     connection: 'keep-alive',
+214 silly get     'set-cookie': [ '__cfduid=d3d84d4024fdb8efa47ea95d55c48280b1603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+214 silly get     'cf-ray': '5e6506ba79120d76-IAD',
+214 silly get     age: '242',
+214 silly get     'cache-control': 'public, max-age=300',
+214 silly get     etag: '"378c82072e8746c21dd0c099e764f676"',
+214 silly get     'last-modified': 'Wed, 23 Sep 2020 08:20:40 GMT',
+214 silly get     vary: 'Accept-Encoding',
+214 silly get     'cf-cache-status': 'HIT',
+214 silly get     'cf-request-id': '05f302888f00000d76e2807000000001',
+214 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+214 silly get     server: 'cloudflare' } ]
+215 verbose etag https://registry.npmjs.org/vega-event-selector from cache
+216 verbose get saving vega-event-selector to /home/msl/.npm/registry.npmjs.org/vega-event-selector/.cache.json
+217 http 304 https://registry.npmjs.org/vega-expression
+218 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+218 verbose headers   connection: 'keep-alive',
+218 verbose headers   'set-cookie': [ '__cfduid=d873cf5accc52c4b5e22401a22a7749151603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+218 verbose headers   'cf-ray': '5e6506ba7ca07401-IAD',
+218 verbose headers   age: '242',
+218 verbose headers   'cache-control': 'public, max-age=300',
+218 verbose headers   etag: '"c522ac11467530c27fcc50bac405df92"',
+218 verbose headers   'last-modified': 'Wed, 23 Sep 2020 08:20:44 GMT',
+218 verbose headers   vary: 'Accept-Encoding',
+218 verbose headers   'cf-cache-status': 'HIT',
+218 verbose headers   'cf-request-id': '05f30288900000740183056000000001',
+218 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+218 verbose headers   server: 'cloudflare' }
+219 silly get cb [ 304,
+219 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+219 silly get     connection: 'keep-alive',
+219 silly get     'set-cookie': [ '__cfduid=d873cf5accc52c4b5e22401a22a7749151603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+219 silly get     'cf-ray': '5e6506ba7ca07401-IAD',
+219 silly get     age: '242',
+219 silly get     'cache-control': 'public, max-age=300',
+219 silly get     etag: '"c522ac11467530c27fcc50bac405df92"',
+219 silly get     'last-modified': 'Wed, 23 Sep 2020 08:20:44 GMT',
+219 silly get     vary: 'Accept-Encoding',
+219 silly get     'cf-cache-status': 'HIT',
+219 silly get     'cf-request-id': '05f30288900000740183056000000001',
+219 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+219 silly get     server: 'cloudflare' } ]
+220 verbose etag https://registry.npmjs.org/vega-expression from cache
+221 verbose get saving vega-expression to /home/msl/.npm/registry.npmjs.org/vega-expression/.cache.json
+222 http 304 https://registry.npmjs.org/@types%2ffast-json-stable-stringify
+223 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+223 verbose headers   connection: 'keep-alive',
+223 verbose headers   'set-cookie': [ '__cfduid=d83fdbc247d8418afc789f5541e500d911603388665; expires=Sat, 21-Nov-20 17:44:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+223 verbose headers   'cf-ray': '5e6506ba6999eaaa-IAD',
+223 verbose headers   age: '1307',
+223 verbose headers   'cache-control': 'public, max-age=300',
+223 verbose headers   etag: '"413c4558d3482b0bb23fe06675ee8e93"',
+223 verbose headers   'last-modified': 'Tue, 25 Aug 2020 22:18:14 GMT',
+223 verbose headers   vary: 'Accept-Encoding',
+223 verbose headers   'cf-cache-status': 'HIT',
+223 verbose headers   'cf-request-id': '05f30288820000eaaa653f7000000001',
+223 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+223 verbose headers   server: 'cloudflare' }
+224 silly get cb [ 304,
+224 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+224 silly get     connection: 'keep-alive',
+224 silly get     'set-cookie': [ '__cfduid=d83fdbc247d8418afc789f5541e500d911603388665; expires=Sat, 21-Nov-20 17:44:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+224 silly get     'cf-ray': '5e6506ba6999eaaa-IAD',
+224 silly get     age: '1307',
+224 silly get     'cache-control': 'public, max-age=300',
+224 silly get     etag: '"413c4558d3482b0bb23fe06675ee8e93"',
+224 silly get     'last-modified': 'Tue, 25 Aug 2020 22:18:14 GMT',
+224 silly get     vary: 'Accept-Encoding',
+224 silly get     'cf-cache-status': 'HIT',
+224 silly get     'cf-request-id': '05f30288820000eaaa653f7000000001',
+224 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+224 silly get     server: 'cloudflare' } ]
+225 verbose etag https://registry.npmjs.org/@types%2ffast-json-stable-stringify from cache
+226 verbose get saving @types/fast-json-stable-stringify to /home/msl/.npm/registry.npmjs.org/_40types_252ffast-json-stable-stringify/.cache.json
+227 http 304 https://registry.npmjs.org/vega-util
+228 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+228 verbose headers   connection: 'keep-alive',
+228 verbose headers   'set-cookie': [ '__cfduid=de4e065538eb8f525f2b76a5376ce70601603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+228 verbose headers   'cf-ray': '5e6506ba8d8a0323-IAD',
+228 verbose headers   age: '242',
+228 verbose headers   'cache-control': 'public, max-age=300',
+228 verbose headers   etag: '"bf0efaba947ebafc71799c4761db9a43"',
+228 verbose headers   'last-modified': 'Thu, 01 Oct 2020 10:12:46 GMT',
+228 verbose headers   vary: 'Accept-Encoding',
+228 verbose headers   'cf-cache-status': 'HIT',
+228 verbose headers   'cf-request-id': '05f302889000000323633fa000000001',
+228 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+228 verbose headers   server: 'cloudflare' }
+229 silly get cb [ 304,
+229 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+229 silly get     connection: 'keep-alive',
+229 silly get     'set-cookie': [ '__cfduid=de4e065538eb8f525f2b76a5376ce70601603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+229 silly get     'cf-ray': '5e6506ba8d8a0323-IAD',
+229 silly get     age: '242',
+229 silly get     'cache-control': 'public, max-age=300',
+229 silly get     etag: '"bf0efaba947ebafc71799c4761db9a43"',
+229 silly get     'last-modified': 'Thu, 01 Oct 2020 10:12:46 GMT',
+229 silly get     vary: 'Accept-Encoding',
+229 silly get     'cf-cache-status': 'HIT',
+229 silly get     'cf-request-id': '05f302889000000323633fa000000001',
+229 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+229 silly get     server: 'cloudflare' } ]
+230 verbose etag https://registry.npmjs.org/vega-util from cache
+231 verbose get saving vega-util to /home/msl/.npm/registry.npmjs.org/vega-util/.cache.json
+232 http 304 https://registry.npmjs.org/yargs
+233 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+233 verbose headers   connection: 'keep-alive',
+233 verbose headers   'set-cookie': [ '__cfduid=dc326ee8802ae4fd94c365dfd026b27771603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+233 verbose headers   'cf-ray': '5e6506ba7c21ea20-IAD',
+233 verbose headers   age: '5825',
+233 verbose headers   'cache-control': 'public, max-age=300',
+233 verbose headers   etag: '"a4375234a85bb970a0ab3e634123647c"',
+233 verbose headers   'last-modified': 'Fri, 16 Oct 2020 00:15:20 GMT',
+233 verbose headers   vary: 'Accept-Encoding',
+233 verbose headers   'cf-cache-status': 'HIT',
+233 verbose headers   'cf-request-id': '05f302888f0000ea20661f3000000001',
+233 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+233 verbose headers   server: 'cloudflare' }
+234 silly get cb [ 304,
+234 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+234 silly get     connection: 'keep-alive',
+234 silly get     'set-cookie': [ '__cfduid=dc326ee8802ae4fd94c365dfd026b27771603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+234 silly get     'cf-ray': '5e6506ba7c21ea20-IAD',
+234 silly get     age: '5825',
+234 silly get     'cache-control': 'public, max-age=300',
+234 silly get     etag: '"a4375234a85bb970a0ab3e634123647c"',
+234 silly get     'last-modified': 'Fri, 16 Oct 2020 00:15:20 GMT',
+234 silly get     vary: 'Accept-Encoding',
+234 silly get     'cf-cache-status': 'HIT',
+234 silly get     'cf-request-id': '05f302888f0000ea20661f3000000001',
+234 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+234 silly get     server: 'cloudflare' } ]
+235 verbose etag https://registry.npmjs.org/yargs from cache
+236 verbose get saving yargs to /home/msl/.npm/registry.npmjs.org/yargs/.cache.json
+237 http 304 https://registry.npmjs.org/tslib
+238 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+238 verbose headers   connection: 'keep-alive',
+238 verbose headers   'set-cookie': [ '__cfduid=d11beeb47f897a17690f1162af38912eb1603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+238 verbose headers   'cf-ray': '5e6506ba795f29c6-IAD',
+238 verbose headers   age: '555',
+238 verbose headers   'cache-control': 'public, max-age=300',
+238 verbose headers   etag: '"8f0a1273b0d161d5021b5a2b85d2d8be"',
+238 verbose headers   'last-modified': 'Fri, 09 Oct 2020 23:35:46 GMT',
+238 verbose headers   vary: 'Accept-Encoding',
+238 verbose headers   'cf-cache-status': 'HIT',
+238 verbose headers   'cf-request-id': '05f3028890000029c61cb83000000001',
+238 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+238 verbose headers   server: 'cloudflare' }
+239 silly get cb [ 304,
+239 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+239 silly get     connection: 'keep-alive',
+239 silly get     'set-cookie': [ '__cfduid=d11beeb47f897a17690f1162af38912eb1603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+239 silly get     'cf-ray': '5e6506ba795f29c6-IAD',
+239 silly get     age: '555',
+239 silly get     'cache-control': 'public, max-age=300',
+239 silly get     etag: '"8f0a1273b0d161d5021b5a2b85d2d8be"',
+239 silly get     'last-modified': 'Fri, 09 Oct 2020 23:35:46 GMT',
+239 silly get     vary: 'Accept-Encoding',
+239 silly get     'cf-cache-status': 'HIT',
+239 silly get     'cf-request-id': '05f3028890000029c61cb83000000001',
+239 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+239 silly get     server: 'cloudflare' } ]
+240 verbose etag https://registry.npmjs.org/tslib from cache
+241 verbose get saving tslib to /home/msl/.npm/registry.npmjs.org/tslib/.cache.json
+242 http 304 https://registry.npmjs.org/fast-deep-equal
+243 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+243 verbose headers   connection: 'keep-alive',
+243 verbose headers   'set-cookie': [ '__cfduid=dacba98755ae5e48d98f2484b630341541603388665; expires=Sat, 21-Nov-20 17:44:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+243 verbose headers   'cf-ray': '5e6506ba7e8c2adc-IAD',
+243 verbose headers   age: '6465',
+243 verbose headers   'cache-control': 'public, max-age=300',
+243 verbose headers   etag: '"50e58e96ce1ae757a0bd8e41b58513be"',
+243 verbose headers   'last-modified': 'Mon, 08 Jun 2020 07:27:32 GMT',
+243 verbose headers   vary: 'Accept-Encoding',
+243 verbose headers   'cf-cache-status': 'HIT',
+243 verbose headers   'cf-request-id': '05f302888b00002adccba3d000000001',
+243 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+243 verbose headers   server: 'cloudflare' }
+244 silly get cb [ 304,
+244 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+244 silly get     connection: 'keep-alive',
+244 silly get     'set-cookie': [ '__cfduid=dacba98755ae5e48d98f2484b630341541603388665; expires=Sat, 21-Nov-20 17:44:25 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+244 silly get     'cf-ray': '5e6506ba7e8c2adc-IAD',
+244 silly get     age: '6465',
+244 silly get     'cache-control': 'public, max-age=300',
+244 silly get     etag: '"50e58e96ce1ae757a0bd8e41b58513be"',
+244 silly get     'last-modified': 'Mon, 08 Jun 2020 07:27:32 GMT',
+244 silly get     vary: 'Accept-Encoding',
+244 silly get     'cf-cache-status': 'HIT',
+244 silly get     'cf-request-id': '05f302888b00002adccba3d000000001',
+244 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+244 silly get     server: 'cloudflare' } ]
+245 verbose etag https://registry.npmjs.org/fast-deep-equal from cache
+246 verbose get saving fast-deep-equal to /home/msl/.npm/registry.npmjs.org/fast-deep-equal/.cache.json
+247 silly resolveWithNewModule array-flat-polyfill@1.0.1 checking installable status
+248 silly cache add args [ 'array-flat-polyfill@^1.0.1', null ]
+249 verbose cache add spec array-flat-polyfill@^1.0.1
+250 silly cache add parsed spec Result {
+250 silly cache add   raw: 'array-flat-polyfill@^1.0.1',
+250 silly cache add   scope: null,
+250 silly cache add   name: 'array-flat-polyfill',
+250 silly cache add   rawSpec: '^1.0.1',
+250 silly cache add   spec: '>=1.0.1 <2.0.0',
+250 silly cache add   type: 'range' }
+251 silly addNamed array-flat-polyfill@>=1.0.1 <2.0.0
+252 verbose addNamed ">=1.0.1 <2.0.0" is a valid semver range for array-flat-polyfill
+253 silly addNameRange { name: 'array-flat-polyfill',
+253 silly addNameRange   range: '>=1.0.1 <2.0.0',
+253 silly addNameRange   hasData: false }
+254 silly mapToRegistry name array-flat-polyfill
+255 silly mapToRegistry using default registry
+256 silly mapToRegistry registry https://registry.npmjs.org/
+257 silly mapToRegistry uri https://registry.npmjs.org/array-flat-polyfill
+258 verbose addNameRange registry:https://registry.npmjs.org/array-flat-polyfill not in flight; fetching
+259 silly resolveWithNewModule fast-json-stable-stringify@2.1.0 checking installable status
+260 silly cache add args [ 'fast-json-stable-stringify@~2.1.0', null ]
+261 verbose cache add spec fast-json-stable-stringify@~2.1.0
+262 silly cache add parsed spec Result {
+262 silly cache add   raw: 'fast-json-stable-stringify@~2.1.0',
+262 silly cache add   scope: null,
+262 silly cache add   name: 'fast-json-stable-stringify',
+262 silly cache add   rawSpec: '~2.1.0',
+262 silly cache add   spec: '>=2.1.0 <2.2.0',
+262 silly cache add   type: 'range' }
+263 silly addNamed fast-json-stable-stringify@>=2.1.0 <2.2.0
+264 verbose addNamed ">=2.1.0 <2.2.0" is a valid semver range for fast-json-stable-stringify
+265 silly addNameRange { name: 'fast-json-stable-stringify',
+265 silly addNameRange   range: '>=2.1.0 <2.2.0',
+265 silly addNameRange   hasData: false }
+266 silly mapToRegistry name fast-json-stable-stringify
+267 silly mapToRegistry using default registry
+268 silly mapToRegistry registry https://registry.npmjs.org/
+269 silly mapToRegistry uri https://registry.npmjs.org/fast-json-stable-stringify
+270 verbose addNameRange registry:https://registry.npmjs.org/fast-json-stable-stringify not in flight; fetching
+271 silly resolveWithNewModule vega-event-selector@2.0.6 checking installable status
+272 silly cache add args [ 'vega-event-selector@~2.0.6', null ]
+273 verbose cache add spec vega-event-selector@~2.0.6
+274 silly cache add parsed spec Result {
+274 silly cache add   raw: 'vega-event-selector@~2.0.6',
+274 silly cache add   scope: null,
+274 silly cache add   name: 'vega-event-selector',
+274 silly cache add   rawSpec: '~2.0.6',
+274 silly cache add   spec: '>=2.0.6 <2.1.0',
+274 silly cache add   type: 'range' }
+275 silly addNamed vega-event-selector@>=2.0.6 <2.1.0
+276 verbose addNamed ">=2.0.6 <2.1.0" is a valid semver range for vega-event-selector
+277 silly addNameRange { name: 'vega-event-selector',
+277 silly addNameRange   range: '>=2.0.6 <2.1.0',
+277 silly addNameRange   hasData: false }
+278 silly mapToRegistry name vega-event-selector
+279 silly mapToRegistry using default registry
+280 silly mapToRegistry registry https://registry.npmjs.org/
+281 silly mapToRegistry uri https://registry.npmjs.org/vega-event-selector
+282 verbose addNameRange registry:https://registry.npmjs.org/vega-event-selector not in flight; fetching
+283 silly resolveWithNewModule clone@2.1.2 checking installable status
+284 silly cache add args [ 'clone@~2.1.2', null ]
+285 verbose cache add spec clone@~2.1.2
+286 silly cache add parsed spec Result {
+286 silly cache add   raw: 'clone@~2.1.2',
+286 silly cache add   scope: null,
+286 silly cache add   name: 'clone',
+286 silly cache add   rawSpec: '~2.1.2',
+286 silly cache add   spec: '>=2.1.2 <2.2.0',
+286 silly cache add   type: 'range' }
+287 silly addNamed clone@>=2.1.2 <2.2.0
+288 verbose addNamed ">=2.1.2 <2.2.0" is a valid semver range for clone
+289 silly addNameRange { name: 'clone', range: '>=2.1.2 <2.2.0', hasData: false }
+290 silly mapToRegistry name clone
+291 silly mapToRegistry using default registry
+292 silly mapToRegistry registry https://registry.npmjs.org/
+293 silly mapToRegistry uri https://registry.npmjs.org/clone
+294 verbose addNameRange registry:https://registry.npmjs.org/clone not in flight; fetching
+295 silly resolveWithNewModule @types/fast-json-stable-stringify@2.0.0 checking installable status
+296 silly cache add args [ '@types/fast-json-stable-stringify@^2.0.0', null ]
+297 verbose cache add spec @types/fast-json-stable-stringify@^2.0.0
+298 silly cache add parsed spec Result {
+298 silly cache add   raw: '@types/fast-json-stable-stringify@^2.0.0',
+298 silly cache add   scope: '@types',
+298 silly cache add   name: '@types/fast-json-stable-stringify',
+298 silly cache add   rawSpec: '^2.0.0',
+298 silly cache add   spec: '>=2.0.0 <3.0.0',
+298 silly cache add   type: 'range' }
+299 silly addNamed @types/fast-json-stable-stringify@>=2.0.0 <3.0.0
+300 verbose addNamed ">=2.0.0 <3.0.0" is a valid semver range for @types/fast-json-stable-stringify
+301 silly addNameRange { name: '@types/fast-json-stable-stringify',
+301 silly addNameRange   range: '>=2.0.0 <3.0.0',
+301 silly addNameRange   hasData: false }
+302 silly mapToRegistry name @types/fast-json-stable-stringify
+303 silly mapToRegistry scope (from package name) @types
+304 verbose mapToRegistry no registry URL found in name for scope @types
+305 silly mapToRegistry using default registry
+306 silly mapToRegistry registry https://registry.npmjs.org/
+307 silly mapToRegistry uri https://registry.npmjs.org/@types%2ffast-json-stable-stringify
+308 verbose addNameRange registry:https://registry.npmjs.org/@types%2ffast-json-stable-stringify not in flight; fetching
+309 silly resolveWithNewModule json-stringify-pretty-compact@2.0.0 checking installable status
+310 silly cache add args [ 'json-stringify-pretty-compact@~2.0.0', null ]
+311 verbose cache add spec json-stringify-pretty-compact@~2.0.0
+312 silly cache add parsed spec Result {
+312 silly cache add   raw: 'json-stringify-pretty-compact@~2.0.0',
+312 silly cache add   scope: null,
+312 silly cache add   name: 'json-stringify-pretty-compact',
+312 silly cache add   rawSpec: '~2.0.0',
+312 silly cache add   spec: '>=2.0.0 <2.1.0',
+312 silly cache add   type: 'range' }
+313 silly addNamed json-stringify-pretty-compact@>=2.0.0 <2.1.0
+314 verbose addNamed ">=2.0.0 <2.1.0" is a valid semver range for json-stringify-pretty-compact
+315 silly addNameRange { name: 'json-stringify-pretty-compact',
+315 silly addNameRange   range: '>=2.0.0 <2.1.0',
+315 silly addNameRange   hasData: false }
+316 silly mapToRegistry name json-stringify-pretty-compact
+317 silly mapToRegistry using default registry
+318 silly mapToRegistry registry https://registry.npmjs.org/
+319 silly mapToRegistry uri https://registry.npmjs.org/json-stringify-pretty-compact
+320 verbose addNameRange registry:https://registry.npmjs.org/json-stringify-pretty-compact not in flight; fetching
+321 silly resolveWithNewModule vega-expression@3.0.0 checking installable status
+322 silly cache add args [ 'vega-expression@~3.0.0', null ]
+323 verbose cache add spec vega-expression@~3.0.0
+324 silly cache add parsed spec Result {
+324 silly cache add   raw: 'vega-expression@~3.0.0',
+324 silly cache add   scope: null,
+324 silly cache add   name: 'vega-expression',
+324 silly cache add   rawSpec: '~3.0.0',
+324 silly cache add   spec: '>=3.0.0 <3.1.0',
+324 silly cache add   type: 'range' }
+325 silly addNamed vega-expression@>=3.0.0 <3.1.0
+326 verbose addNamed ">=3.0.0 <3.1.0" is a valid semver range for vega-expression
+327 silly addNameRange { name: 'vega-expression',
+327 silly addNameRange   range: '>=3.0.0 <3.1.0',
+327 silly addNameRange   hasData: false }
+328 silly mapToRegistry name vega-expression
+329 silly mapToRegistry using default registry
+330 silly mapToRegistry registry https://registry.npmjs.org/
+331 silly mapToRegistry uri https://registry.npmjs.org/vega-expression
+332 verbose addNameRange registry:https://registry.npmjs.org/vega-expression not in flight; fetching
+333 silly resolveWithNewModule vega-util@1.16.0 checking installable status
+334 silly cache add args [ 'vega-util@~1.16.0', null ]
+335 verbose cache add spec vega-util@~1.16.0
+336 silly cache add parsed spec Result {
+336 silly cache add   raw: 'vega-util@~1.16.0',
+336 silly cache add   scope: null,
+336 silly cache add   name: 'vega-util',
+336 silly cache add   rawSpec: '~1.16.0',
+336 silly cache add   spec: '>=1.16.0 <1.17.0',
+336 silly cache add   type: 'range' }
+337 silly addNamed vega-util@>=1.16.0 <1.17.0
+338 verbose addNamed ">=1.16.0 <1.17.0" is a valid semver range for vega-util
+339 silly addNameRange { name: 'vega-util', range: '>=1.16.0 <1.17.0', hasData: false }
+340 silly mapToRegistry name vega-util
+341 silly mapToRegistry using default registry
+342 silly mapToRegistry registry https://registry.npmjs.org/
+343 silly mapToRegistry uri https://registry.npmjs.org/vega-util
+344 verbose addNameRange registry:https://registry.npmjs.org/vega-util not in flight; fetching
+345 http 304 https://registry.npmjs.org/@types%2fclone
+346 verbose headers { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+346 verbose headers   connection: 'keep-alive',
+346 verbose headers   'set-cookie': [ '__cfduid=db6f7f9a05b0607591c9f5f47ee8408711603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+346 verbose headers   'cf-ray': '5e6506ba8a7956df-IAD',
+346 verbose headers   age: '1363',
+346 verbose headers   'cache-control': 'public, max-age=300',
+346 verbose headers   etag: '"4b8d43c7d2909e13f376a1afce02ea8a"',
+346 verbose headers   'last-modified': 'Tue, 25 Aug 2020 22:11:36 GMT',
+346 verbose headers   vary: 'Accept-Encoding',
+346 verbose headers   'cf-cache-status': 'HIT',
+346 verbose headers   'cf-request-id': '05f3028893000056df0ca95000000001',
+346 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+346 verbose headers   server: 'cloudflare' }
+347 silly get cb [ 304,
+347 silly get   { date: 'Thu, 22 Oct 2020 17:44:26 GMT',
+347 silly get     connection: 'keep-alive',
+347 silly get     'set-cookie': [ '__cfduid=db6f7f9a05b0607591c9f5f47ee8408711603388666; expires=Sat, 21-Nov-20 17:44:26 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+347 silly get     'cf-ray': '5e6506ba8a7956df-IAD',
+347 silly get     age: '1363',
+347 silly get     'cache-control': 'public, max-age=300',
+347 silly get     etag: '"4b8d43c7d2909e13f376a1afce02ea8a"',
+347 silly get     'last-modified': 'Tue, 25 Aug 2020 22:11:36 GMT',
+347 silly get     vary: 'Accept-Encoding',
+347 silly get     'cf-cache-status': 'HIT',
+347 silly get     'cf-request-id': '05f3028893000056df0ca95000000001',
+347 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+347 silly get     server: 'cloudflare' } ]
+348 verbose etag https://registry.npmjs.org/@types%2fclone from cache
+349 verbose get saving @types/clone to /home/msl/.npm/registry.npmjs.org/_40types_252fclone/.cache.json
+350 verbose stack Error: Missing required argument #1
+350 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+350 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+350 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+350 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+350 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+350 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+350 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+350 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+350 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+350 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+351 verbose cwd /home/msl/sandbox/psiturk-machine-teaching
+352 error Linux 4.15.0-120-generic
+353 error argv "/usr/bin/nodejs" "/usr/bin/npm" "install" "vega-lite"
+354 error node v4.2.6
+355 error npm  v3.5.2
+356 error code EMISSINGARG
+357 error typeerror Error: Missing required argument #1
+357 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+357 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+357 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+357 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+357 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+357 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+357 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+357 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+357 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+357 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+358 error typeerror This is an error with npm itself. Please report this error at:
+358 error typeerror     <http://github.com/npm/npm/issues>
+359 verbose exit [ 1, true ]

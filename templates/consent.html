@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<!--
+     The consent.html displays the text of your IRB-approved
+     consent form.  Even if you are not required to provide
+     a consent form, it is helpful to use this form to
+     describe what people can do if an error comes up, etc...
+-->
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>HARP Lab Experiment - Informed Consent Form</title>
+        <link rel="stylesheet" href="static/css/bootstrap.min.css" type="text/css" />
+        <!--<link rel="stylesheet" href="static/css/style.css" type="text/css" />-->
+        <link rel="icon" href="static/favicon.ico" />
+        <script type="text/javascript">
+         function onexit() {
+             self.close(); // no harm, no foul here
+         }
+        </script>
+		    <style>
+			   @media print {
+				     body * {
+                 visibility: hidden;
+				     }
+				     .legal, .legal * {
+					       visibility: visible;
+				     }
+				     .legal {
+					       position: absolute;
+					       left: 0;
+					       top: 0;
+					       overflow:visible;
+				     }
+			   }
+		    </style>
+    </head>
+    <body>
+        <div id="container-consent" style="width: 50%; transform: translate(50%, -0%);">
+            <div id="consent">
+                <h1 style="text-align: center">We need your consent to proceed</h1>
+                <hr />
+
+                <div class="legal well">
+                        <h3>Online Consent for Participation</h3>
+                    <br>
+                        <p>
+                            This study is part of a research study conducted by Dr. Henny Admoni at Carnegie Mellon University and is funded by the Office of Naval Research.
+                        </p>
+                        <p>
+                            The purpose of the research is to evaluate the efficacy of different machine teaching methods for human learners.
+                        </p>
+                        <p>
+                            <b>
+                                Procedures
+                            </b>
+                            <br>
+                            You will be asked to view images or videos of a robot and answer questions regarding them. This study may take up to 25 minutes.
+                        </p>
+                        <p>
+                            <b>
+                                Participation Requirements
+                            </b>
+                            <br>
+                            You must be 18 years of age or older.
+                        </p>
+                        <p>
+                            <b>
+                                Risks
+                            </b>
+                            <br>
+                            The risks and discomfort associated with participation in this study are no greater than those ordinarily encountered in daily life.
+                        </p>
+                        <p>
+                            <b>
+                                Benefits
+                            </b>
+                            <br>
+                            There may be no personal benefit from your participation in the study but the knowledge received may be of value to robotics research at Carnegie Mellon University.
+                        </p>
+
+                        <p>
+                            <b>
+                                Compensation & Costs
+                            </b>
+                            <br>
+                            You will be compensated at a competitive Prolific rate.
+
+                            There will be no cost to you if you participate in this study.
+
+                        </p>
+
+                        <p>
+                            <b>
+                                Confidentiality
+                            </b>
+                            <br>
+                            The data captured for the research does not include any personally identifiable information about you.  Your IP address will not be captured. Study sponsors may have access to research records.
+                        </p>
+
+                        <p>
+                            <b>
+                                Right to Ask Questions & Contact Information
+                            </b>
+                            <br>
+                            If you have any questions about this study, you should feel free to ask them by contacting the Principal Investigator now at the address below. If you have questions later, desire additional information, or wish to withdraw your participation please contact the Principal Investigator.
+                            <br>
+                            <p class="tab">
+                                Dr. Henny Admoni<br>
+                                The Robotics Institute<br>
+                                Carnegie Mellon University<br>
+                                5000 Forbes Avenue<br>
+                                Pittsburgh, PA, 15213<br>
+                                Email: henny@cmu.edu	<br>
+                                (412) 268-7939
+                            </p>
+                            <br>
+                            If you have questions pertaining to your rights as a research participant; or to report concerns to this study, you should contact the Office of Research integrity and Compliance at Carnegie Mellon University.  Email: irb-review@andrew.cmu.edu . Phone: 412-268-1901 or 412-268-5460.
+
+                        </p>
+
+                        <p>
+                            <b>
+                                Voluntary Participation
+                            </b>
+                            <br>
+                            Your participation in this research is voluntary. You may discontinue participation at any time during the research activity. By continuing, you certify that you have read and understood the information above and want to participate in this research.
+                        </p>
+
+
+
+                    <br>
+
+                    <div style="text-align: center">
+                    <button type="button" class="btn btn-default btn-sm" onClick="window.print();">
+                        <span class="glyphicon glyphicon-print"></span> Print a copy of this
+                    </button>
+                    </div>
+                </div>
+
+
+                <div style="text-align: center">
+                <label for="age">I am 18 years old or older:</label>
+                <input type="checkbox" id="age" onclick="myFunction()" style="text-align: center">
+                <br>
+                <label for="read">I have read and understand the information above:</label>
+                <input type="checkbox" id="read" onclick="myFunction()">
+                <br>
+                <label for="want">I want to participate in this research:</label>
+                <input type="checkbox" id="want" onclick="myFunction()">
+
+                <p id="eligible" style="display">Unless you meet the above requirements, you are not eligible to complete this study. </p>
+
+                <script>
+                 function myFunction() {
+                     var ageBox = document.getElementById("age");
+                     var readBox = document.getElementById("read");
+                     var wantBox =document.getElementById("want");
+                     var text = document.getElementById("eligible");
+                     var header = document.getElementById("header");
+                     var yesButton = document.getElementById("yesButton");
+
+                     if (ageBox.checked && readBox.checked && wantBox.checked){
+                         header.style.display = "block";
+                         yesButton.style.display = "block";
+                         text.style.display = "none";
+
+                     } else {
+                         text.style.display = "block";
+                         header.style.display = "none";
+                         yesButton.style.display = "none";
+
+                     }
+                 }
+                </script>
+
+                <hr />
+                <h4 id = "header" style="display:none">You are eligible to participate in our study. Do you understand and consent to these terms?</h4>
+                <br />
+
+                <center>
+                    <button id = "yesButton" style="display:none" type="button" class="btn btn-primary btn-lg" onClick="window.location='exp?hitId={{ hitid }}&assignmentId={{ assignmentid }}&workerId={{ workerid }}'">
+                        <span class="glyphicon glyphicon-ok"></span> I agree
+                    </button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </center>
+
+                <center>
+                    <button id = "noButton" type="button" class="btn btn-danger btn-lg" onClick="onexit()">
+                        <span class="glyphicon glyphicon-ban-circle"></span> No thanks, I do not want to do this study
+                    </button>
+                </center>
+                </div>
+<!--
+                <script>
+                    // todo: putting this here for now so that I don't have to click through the consent textboxes while debugging
+                    var ageBox = document.getElementById("age");
+                     var readBox = document.getElementById("read");
+                     var wantBox =document.getElementById("want");
+                     var text = document.getElementById("eligible");
+                     var header = document.getElementById("header");
+                     var yesButton = document.getElementById("yesButton");
+
+                     header.style.display = "block";
+                     yesButton.style.display = "block";
+                     text.style.display = "none";
+                </script>
+-->
+            </div>
+        </div>
+    </body>
+</html>

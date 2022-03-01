@@ -1,0 +1,98 @@
+<link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+
+<div id="container-instructions">
+    <hr />
+
+    <div class="instructions well">
+        <h2>Welcome to a new game!</h2> <br>
+        <h3> Here are a few configurations that you may see in this section.</h3>
+
+        <img src = 'static/img/colored_tiles_1.png' width="250" height=auto/>
+        <img src = 'static/img/colored_tiles_2.png' width="250" height=auto hspace="20" vspace="20"/>
+        <img src = 'static/img/colored_tiles_3.png' width="250" height=auto/>
+        <br>
+        <br>
+
+        <h3>In this game, the task is the following:</h3>
+
+        <table class="center">
+          <tr>
+            <th>Task</th>
+            <th>Sample sequence</th>
+          </tr>
+          <tr>
+            <td>Moving into the grey square</td>
+            <td><img src = 'static/img/colored_tiles_goal1.png' width="75" height=auto />
+            <img src = 'static/img/arrow.png' width="30" height=auto />
+            <img src = 'static/img/colored_tiles_goal2.png' width="75" height=auto />
+            </td>
+          </tr>
+        </table>
+
+        <br>
+        <br>
+
+        <h3>In this game, the following actions affect Chip's energy differently:</h3>
+
+        <table class="center">
+          <tr>
+            <th>Actions</th>
+            <th>Sample sequence</th>
+              <th>Energy change</th>
+
+          </tr>
+          <tr>
+              <td>Moving <u>out of</u> a green circle (into any other space) </td>
+            <td>
+                <img src = 'static/img/colored_tiles_tile1_1.png' width=auto height="125" />
+                <img src = 'static/img/arrow.png' width="30" height=auto />
+                <img src = 'static/img/colored_tiles_tile1_2.png' width=auto height="125" />
+            </td>
+              <td>???</td>
+          </tr>
+          <tr>
+              <td>Moving <u>out of</u> a light brown square (into any other space)</td>
+            <td><img src = 'static/img/colored_tiles_tile2_1.png' width="75" height=auto />
+            <img src = 'static/img/arrow.png' width="30" height=auto />
+            <img src = 'static/img/colored_tiles_tile2_2.png' width="75" height=auto />
+            </td>
+              <td>???</td>
+          </tr>
+          <tr>
+            <td>Any action that you take (e.g. moving right)</td>
+            <td>
+                <img src = 'static/img/right1.png' width="150" height=auto />
+            <img src = 'static/img/arrow.png' width="30" height=auto />
+            <img src = 'static/img/right2.png' width="150" height=auto />
+              <td>???</td>
+            </td>
+          </tr>
+        </table>
+
+        <br><br>
+        <h3>Chip will now provide a few demonstrations of the best strategy for this game.</h3>
+
+    </div>
+
+    <hr />
+
+
+    <div class="instructionsnav">
+        <div class="row">
+            <div class="col-xs-2">
+                <!-- no previous button on first screen -->
+            </div>
+            <div class="col-xs-8">
+            </div>
+            <div class="col-xs-2">
+                <button type="button" id="next" value="next" class="btn btn-primary btn-lg continue">
+                Next <span class="glyphicon glyphicon-arrow-right"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script>
+</script>

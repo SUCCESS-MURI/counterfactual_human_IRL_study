@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simulation</title>
+
+    <script src="/static/lib/jquery-min.js" type="text/javascript"> </script>
+    <script src="/static/lib/underscore-min.js" type="text/javascript"> </script>
+    <script src="/static/lib/backbone-min.js" type="text/javascript"> </script>
+    <script src="/static/lib/d3.v3.min.js" type="text/javascript"> </script>
+
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="/static/css/style.css" type="text/css" />
+    <link rel="stylesheet" href="/static/css/jspsych.css" type="text/css" />
+
+  </head>
+  <body>
+  <canvas id="game" width="800" height="500" ></canvas>
+    <br></br>
+
+    <script>
+    var canvas = document.getElementById("game");
+    var context = canvas.getContext("2d");
+
+    // variables for parent window
+    var final_data = [];
+    var data_sent = false;
+
+    var start_time = 0;
+    var start_time_set = false;
+    var moves = [];
+    var agent_history = [];
+
+    var offset_x = 1.5;
+    var offset_y = 1;
+
+    var mdp_parameters = window.parent.mdp_parameters;
+
+    var text_color = "#394d7e";
+
+    var map_layout = {};
+
+var spaceship =
+      {
+          color: "#628dbe",
+          width: 65,
+          height: 130,
+          grid_loc:
+          {
+              x: 0,
+              y: 0
+          },
+          taxi_set: false,
+      }
+
+      var passenger =
+      {
+          color: "#B395C4",
+          width: 350,
+          height: 350,
+          grid_loc:
+          {
+              x: 0,
+              y: 0
+          },
+          picked: false,
+          dropped: false
+      }
+
+    var hotswap_station =
+      {
+          color: "#58895F",
+          width: 350,
+          height: 350,
+          grid_loc:
+          {
+              x: 0,
+              y: 0
+          },
+          visited: false,
+      }
+
+      function build_grid(){
+        //create a grid
+        temp = [];
+        for (i = 0; i < mdp_parameters.height; i++) {
+            temp.push([0]);
+        }
+        for (j = 0; j < mdp_parameters.height-1; j++) {
+            for (k = 0; k < mdp_parameters.width-1; k++) {
+                temp[j].push(0)
+            }
+        }
+        return temp;
+      }
+
+      function set_grids()
+      {
+          //set location of taxi
+          spaceship.grid_loc.x =  (mdp_parameters.agent.x-1) + offset_x;
+          spaceship.grid_loc.y =  (mdp_parameters.height - mdp_parameters.agent.y) + offset_y;
+          agent_history.push([spaceship.grid_loc.x, spaceship.grid_loc.y])
+          spaceship.taxi_set = true;
+        //set location of passenger
+        if (mdp_parameters.agent.has_passenger == 1){
+            passenger.picked = true;
+            passenger.grid_loc.x = (mdp_parameters.agent.x-1) + offset_x;
+            passenger.grid_loc.y = (mdp_parameters.height - mdp_parameters.agent.y) + offset_y;
+        }
+        else{
+            passenger.grid_loc.x = (mdp_parameters.passengers[0].x-1) + offset_x;
+            passenger.grid_loc.y = (mdp_parameters.height - mdp_parameters.passengers[0].y) + offset_y;
+        }
+        //set destination
+        destination_grid = build_grid();
+        destination_grid[mdp_parameters.height - mdp_parameters.passengers[0].dest_y][mdp_parameters.passengers[0].dest_x-1] = 1;
+        map_layout.destination = destination_grid;
+
+        //set walls
+        color_locs = build_grid();
+        for (i = 0; i < mdp_parameters.walls.length; i++) {
+            color_locs[mdp_parameters.height - mdp_parameters.walls[i].y][mdp_parameters.walls[i].x-1] = 1;
+        }
+        for (j = 0; j < mdp_parameters.tolls.length; j++) {
+            color_locs[mdp_parameters.height - mdp_parameters.tolls[j].y][mdp_parameters.tolls[j].x-1] = 2;
+        }
+        map_layout.color_blocks = color_locs;
+
+        if (mdp_parameters.hotswap_station.length > 0) {
+            hotswap_station.grid_loc.x =  (mdp_parameters.hotswap_station[0].x-1) + offset_x;
+            hotswap_station.grid_loc.y =  (mdp_parameters.height - mdp_parameters.hotswap_station[0].y + offset_y);
+        } else {
+            hotswap_station.visited = true;
+        }
+
+      }
+
+    //http://www.scienceprimer.com/drawing-regular-polygons-javascript-canvas
+      function drawHexagon(Xcenter, Ycenter, color) {
+            var numberOfSides = 6, size = 10;
+
+            context.beginPath();
+            context.moveTo (Xcenter +  size * Math.cos(0), Ycenter +  size *  Math.sin(0));
+
+            for (var i = 1; i <= numberOfSides;i += 1) {
+              context.lineTo (Xcenter + size * Math.cos(i * 2 * Math.PI / numberOfSides), Ycenter + size * Math.sin(i * 2 * Math.PI / numberOfSides));
+            }
+            context.fillStyle = color;
+            context.fill();
+            context.closePath()
+      }
+
+
+      function drawTaxi()
+      {
+          if (spaceship.taxi_set == false){
+            taxiSet();
+          }
+
+          context.save();
+          context.beginPath();
+          context.translate(100*(spaceship.grid_loc.x) + 50, 100*(spaceship.grid_loc.y) + 150);
+
+              context.lineTo(-spaceship.width * 0.5 , -spaceship.height * 0.5);
+              context.lineTo(0, -spaceship.height);
+              context.lineTo(-spaceship.width * -0.5, -spaceship.height * 0.5);
+
+          context.fillStyle = spaceship.color;
+          context.fill();
+          context.closePath();
+
+          context.restore();
+      }
+
+      function drawPassenger()
+      {
+          context.save();
+          context.beginPath();
+          var i = 0;
+          var j = 0;
+
+          if (!passenger.picked){
+            context.arc(passenger.grid_loc.x*100 + 25, passenger.grid_loc.y*100 + 45, 9, 0, 2 * Math.PI);
+            context.fillStyle = passenger.color;
+            context.fill();
+            context.closePath();
+
+          }
+          else{
+            context.arc(passenger.grid_loc.x*100 + 49, passenger.grid_loc.y*100 + 22, 9, 0, 2 * Math.PI);
+            context.fillStyle = passenger.color;
+            context.fill();
+            context.closePath();
+          }
+
+          context.restore();
+      }
+
+    function drawAgentHistory()
+    {
+        context.save();
+        for (j = 0; j < agent_history.length; j++) {
+            context.beginPath();
+            if (j == 0) {
+                context.rect(agent_history[j][0]*100 + 37, agent_history[j][1]*100 + 48, 25, 4);
+                context.fillStyle = '#677387';
+            }
+            context.arc(agent_history[j][0]*100 + 50, agent_history[j][1]*100 + 50, 6, 0, 2 * Math.PI);
+            context.fillStyle = '#677387';
+            context.fill();
+            context.closePath();
+        }
+        context.restore();
+    }
+
+    function drawHotswapStation()
+      {
+          context.save();
+
+          if (!hotswap_station.visited){
+              drawHexagon(hotswap_station.grid_loc.x * 100 + 50, hotswap_station.grid_loc.y * 100 + 50, hotswap_station.color)
+          }
+          context.restore();
+      }
+
+      function drawDestination()
+      {
+          context.save();
+          context.beginPath();
+          var i = 0;
+          var j = 0;
+
+          for (i = 0; i < mdp_parameters.height; i++) {
+              for (j = 0; j < mdp_parameters.width; j++) {
+                  if (map_layout.destination[i][j] == 1){
+                      context.beginPath();
+                      context.rect(100*j + 15+offset_x*100, 100*i + 15 + offset_y*100, 19,15);
+                      context.fillStyle = passenger.color;
+                      context.fill();
+                      context.closePath();
+                  }
+              }
+          }
+          context.restore();
+      }
+
+
+      function drawMap()
+      {
+          context.save();
+              var i;
+              var j;
+              for (i = 0; i < mdp_parameters.height; i++) {
+                  for (j = 0; j < mdp_parameters.width; j++) {
+                      if (map_layout.color_blocks[i][j] == 2){
+                          context.beginPath();
+                          context.rect(4 + 100*j+offset_x*100, 4+100*i + offset_y*100, 92, 92);
+                          context.fillStyle = "#E0E644";
+                          context.fill();
+                          context.closePath();
+                      }
+                      if (map_layout.color_blocks[i][j] == 1){
+                          context.beginPath();
+                          context.rect(4 + 100*j+offset_x*100, 4+100*i + offset_y*100, 92, 92);
+                          context.fillStyle = "#2E3131";
+                          context.fill();
+                          context.closePath();
+                      }
+                  }
+              }
+          context.restore();
+      }
+
+    function start_screen() {
+        if (!map_layout.set){
+            set_grids();
+            map_layout.set = true;
+        }
+        // Clear entire screen
+        context.clearRect(0, 0, canvas.width, canvas.height);
+        context.beginPath();
+        context.fillStyle = "black";
+        context.fill();
+        context.closePath();
+
+        context.font = "30px Arial";
+        context.fillStyle = text_color;
+        context.textAlign = "center";
+        context.fillText("Click on the game below to start controlling Chip", offset_x*100+200, 50);
+
+        //draw grid
+        for (i = 0; i <= mdp_parameters.height; i++) {
+            context.beginPath();
+            context.moveTo(0+offset_x*100, 100*i-1+offset_y*100);
+            context.lineTo(0+offset_x*100, 100*i+1+offset_y*100);
+            context.lineTo(mdp_parameters.width*100+offset_x*100, 100*i+1+offset_y*100);
+            context.lineTo(mdp_parameters.width*100+offset_x*100, 100*i-1+offset_y*100);
+            context.fillStyle = "black";
+            context.fill();
+            context.closePath();
+        }
+        for (i = 0; i <= mdp_parameters.width; i++) {
+            context.beginPath();
+            context.moveTo(100*i-1+offset_x*100, 0+offset_y*100);
+            context.lineTo(100*i+1+offset_x*100, 0+offset_y*100);
+            context.lineTo(100*i+1+offset_x*100, mdp_parameters.height*100+offset_y*100);
+            context.lineTo(100*i-1+offset_x*100, mdp_parameters.height*100+offset_y*100);
+            context.fillStyle = "black";
+            context.fill();
+            context.closePath();
+        }
+
+        context.beginPath();
+        // Begin drawing
+        drawMap();
+        drawDestination();
+        drawHotswapStation();
+        drawTaxi();
+        drawPassenger();
+}
+
+    function record_data(){
+        var end_time = performance.now();
+
+        // record whether the user got the optimal trajectory or not
+        same_traj = false;
+        for (var j = 0; j < mdp_parameters.all_opt_actions.length; j++) {
+            opt_moves = mdp_parameters.all_opt_actions[j]
+            if (moves.length == opt_moves.length) {
+                for (var k = 0; k < moves.length; k++) {
+                    if (moves[k] != opt_moves[k]) {
+                        // if one move differs, no need to consider other moves. they're not the same trajectory
+                        break;
+                    }
+                }
+
+                // if you've found a matching trajectory, no need to check other trajectories
+                if (k == moves.length) {
+                    same_traj = true;
+                    break;
+                }
+            }
+        }
+
+        //console.log('augmented_taxi2_' + mdp_parameters.test_difficulty + '_' + mdp_parameters.tag.toString());
+        //console.log(same_traj);
+
+        // the two test demonstrations at each level of difficulty are always pairs of an even and odd number
+        if (mdp_parameters.tag % 2 == 0) {
+            sessionStorage.setItem('augmented_taxi2_' + mdp_parameters.test_difficulty + '_a', same_traj)
+        }
+        else {
+            sessionStorage.setItem('augmented_taxi2_' + mdp_parameters.test_difficulty + '_b', same_traj)
+        }
+
+        final_data = JSON.stringify({
+            'simulation_rt': (end_time - start_time),
+            'moves': moves,
+            'opt_response': same_traj
+        });
+
+        var event = new CustomEvent("game-completed", { "detail": "Demonstration has now ended." });
+        document.dispatchEvent(event);
+
+        data_sent = true
+    }
+
+      function draw()
+      {
+          if (!start_time_set) {
+              start_time = performance.now();
+              start_time_set = true
+          }
+          if (!map_layout.set){
+            set_grids();
+            map_layout.set = true;
+          }
+          // Clear entire screen
+          context.clearRect(0, 0, canvas.width, canvas.height);
+          context.beginPath();
+          context.fillStyle = "black";
+          context.fill();
+          context.closePath();
+
+
+          //draw grid
+          for (i = 0; i <= mdp_parameters.height; i++) {
+                context.beginPath();
+                context.moveTo(0+offset_x*100, 100*i-1+offset_y*100);
+                context.lineTo(0+offset_x*100, 100*i+1+offset_y*100);
+                context.lineTo(mdp_parameters.width*100+offset_x*100, 100*i+1+offset_y*100);
+                context.lineTo(mdp_parameters.width*100+offset_x*100, 100*i-1+offset_y*100);
+                context.fillStyle = "black";
+                context.fill();
+                context.closePath();
+          }
+          for (i = 0; i <= mdp_parameters.width; i++) {
+                context.beginPath();
+                context.moveTo(100*i-1+offset_x*100, 0+offset_y*100);
+                context.lineTo(100*i+1+offset_x*100, 0+offset_y*100);
+                context.lineTo(100*i+1+offset_x*100, mdp_parameters.height*100+offset_y*100);
+                context.lineTo(100*i-1+offset_x*100, mdp_parameters.height*100+offset_y*100);
+                context.fillStyle = "black";
+                context.fill();
+                context.closePath();
+          }
+
+          context.beginPath();
+          // Begin drawing
+          drawMap();
+          drawDestination();
+          drawAgentHistory()
+          drawHotswapStation();
+          drawTaxi();
+          drawPassenger();
+
+        if(passenger.dropped)
+        {
+            context.font = "bold 28px Arial";
+            context.fillStyle = text_color;
+            context.textAlign = "center";
+            context.fillText("Game completed!", (mdp_parameters.width*100)/2+offset_x*100, (mdp_parameters.height*100)/2+offset_y*100+200);
+
+            //requestAnimationFrame(draw);
+
+            if (data_sent == false) {
+                record_data()
+            }
+        }
+      }
+
+
+      function keyPressed(event)
+      {
+          // prevent arrow keys from simultaneously moving the window
+           if([37, 38, 39, 40].indexOf(event.keyCode) > -1) {
+               event.preventDefault();
+           }
+
+          switch(event.keyCode)
+          {
+              case 37:
+                  // Left Arrow key
+                  if (passenger.dropped){
+                      break;
+                  }
+
+                  if (spaceship.grid_loc.x == hotswap_station.grid_loc.x && spaceship.grid_loc.y == hotswap_station.grid_loc.y) {
+                      agent_on_hotswap_station = true;
+                  }
+                  else {
+                      agent_on_hotswap_station = false;
+                  }
+
+                  if (spaceship.grid_loc.x > offset_x && map_layout.color_blocks[spaceship.grid_loc.y-offset_y][spaceship.grid_loc.x-1-offset_x] != 1){
+                      spaceship.grid_loc.x -= 1;
+                      moves.push("left");
+                      if (passenger.picked){
+                          passenger.grid_loc.x -= 1;
+                      }
+                      if (agent_on_hotswap_station) {
+                          hotswap_station.visited = true;
+                      }
+                  }
+                  break;
+              case 39:
+
+                  // Right Arrow key
+                  if (passenger.dropped){
+                      break;
+                  }
+
+                  if (spaceship.grid_loc.x == hotswap_station.grid_loc.x && spaceship.grid_loc.y == hotswap_station.grid_loc.y) {
+                      agent_on_hotswap_station = true;
+                  }
+                  else {
+                      agent_on_hotswap_station = false;
+                  }
+
+                  if (spaceship.grid_loc.x < mdp_parameters.width-1+offset_x && map_layout.color_blocks[spaceship.grid_loc.y-offset_y][spaceship.grid_loc.x+1-offset_x] != 1){
+                      spaceship.grid_loc.x += 1;
+                      moves.push("right");
+                      if (passenger.picked){
+                          passenger.grid_loc.x += 1;
+                      }
+                      if (agent_on_hotswap_station) {
+                          hotswap_station.visited = true;
+                      }
+                  }
+                  break;
+              case 38:
+                  // Up Arrow key
+                  if (passenger.dropped){
+                      break;
+                  }
+
+                  if (spaceship.grid_loc.x == hotswap_station.grid_loc.x && spaceship.grid_loc.y == hotswap_station.grid_loc.y) {
+                      agent_on_hotswap_station = true;
+                  }
+                  else {
+                      agent_on_hotswap_station = false;
+                  }
+
+                  if (spaceship.grid_loc.y > offset_y && map_layout.color_blocks[spaceship.grid_loc.y-1-offset_y][spaceship.grid_loc.x-offset_x] != 1){
+                      spaceship.grid_loc.y -= 1;
+                      moves.push("up");
+                      if (passenger.picked){
+                          passenger.grid_loc.y -= 1;
+                      }
+                      if (agent_on_hotswap_station) {
+                          hotswap_station.visited = true;
+                      }
+                  }
+                  break;
+              case 40:
+                  // down Arrow key
+                  if (passenger.dropped){
+                      break;
+                  }
+
+                  if (spaceship.grid_loc.x == hotswap_station.grid_loc.x && spaceship.grid_loc.y == hotswap_station.grid_loc.y) {
+                      agent_on_hotswap_station = true;
+                  }
+                  else {
+                      agent_on_hotswap_station = false;
+                  }
+
+                  if (spaceship.grid_loc.y < mdp_parameters.height-1+offset_y && map_layout.color_blocks[spaceship.grid_loc.y+1-offset_y][spaceship.grid_loc.x-offset_x] != 1){
+                      spaceship.grid_loc.y += 1;
+                      moves.push("down");
+                      if (passenger.picked){
+                          passenger.grid_loc.y += 1;
+                      }
+                      if (agent_on_hotswap_station) {
+                          hotswap_station.visited = true;
+                      }
+                  }
+                  break;
+              case 80:
+                  //p key
+                  if (passenger.dropped){
+                      break;
+                  }
+                  if (spaceship.grid_loc.x == passenger.grid_loc.x && spaceship.grid_loc.y == passenger.grid_loc.y && passenger.picked == false){
+                      moves.push("pickup");
+                      passenger.picked = true;
+                  }
+                  break;
+              case 68:
+                  //d key
+                  if (passenger.dropped){
+                      break;
+                  }
+                  if (passenger.picked) {
+                      if (map_layout.destination[spaceship.grid_loc.y-offset_y][spaceship.grid_loc.x-offset_x] == 1) {
+                          passenger.dropped = true;
+                      }
+                      passenger.picked = false;
+                      moves.push("dropoff");
+                  }
+                  break;
+              case 82:
+                  //r key
+                  if (passenger.dropped){
+                      break;
+                  }
+                  moves = [];
+                  map_layout.set = false;
+                  passenger.picked = false;
+                  hotswap_station.visited = false;
+                  agent_history = [];
+                  break;
+          }
+          if (event.keyCode != 82) agent_history.push([spaceship.grid_loc.x, spaceship.grid_loc.y]);
+          requestAnimationFrame(draw);
+      }
+
+    document.addEventListener('keydown', keyPressed);
+    start_screen();
+    canvas.addEventListener('click', draw);
+    context.restore();
+
+    </script>
+  </body>
+</html>
